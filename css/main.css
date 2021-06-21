@@ -1,0 +1,73 @@
+
+body {
+
+  background-color: #5c0c2e;
+  width: 100%;
+}
+
+.container {
+
+  display: block;
+  margin: auto;
+}
+
+.logo {
+
+  background-image: url(../assets/images/logo.png);
+  display: block;
+  margin: auto;
+  height: 600px;
+  width: 600px;
+}
+
+.heading {
+
+  text-align: center;
+  margin: auto;
+  margin-top: -120px;
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.logo-pattern {
+
+  margin-top: 40px;
+  background-image: url(../assets/images/logo-pattern.png);
+  height: 200px;
+  background-position: center;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 146%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .heading {
+
+    margin-top: -20px;
+  }
+
+  .logo-pattern {
+
+    margin-top: 140px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    width: 160%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    width: 166%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 186%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
