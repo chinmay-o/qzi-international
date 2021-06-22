@@ -43,6 +43,11 @@ body {
     width: 146%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 
+  .logo {
+
+    background-size: auto;
+  }
+
   .heading {
 
     margin-top: -20px;
