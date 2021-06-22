@@ -41,13 +41,10 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  body {
-    width: 146%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
 
   .logo {
 
-    background-size: 420px;
+    background-size: 300px;
     background-position: center;
     background-repeat: no-repeat;
     height: 500px;
@@ -61,24 +58,24 @@ body {
 
   .logo-pattern {
 
-    margin-top: 140px;
+    margin-top: 40px;
   }
 }
 
 @media screen and (max-width: 376px) {
-  body {
-    width: 160%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
 
-@media screen and (max-width: 360px) {
-  body {
-    width: 166%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
+  .logo {
 
-@media screen and (max-width: 320px) {
-  body {
-    width: 186%; /* The width is 100%, when the viewport is 800px or smaller */
+    height: 300px;
+  }
+
+  .heading {
+
+    margin-top: -20px;
+  }
+
+  .logo-pattern {
+
+    margin-top: 40px;
   }
 }
